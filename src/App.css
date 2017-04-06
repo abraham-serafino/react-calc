@@ -1,0 +1,16 @@
+.NumberBox {
+    margin: 5px 0 5px 3px;
+    width: 212px;
+    height: 27px;
+    border-radius: 5%;
+    border: 1px solid;
+    padding: 7px 0 0 5px;
+}
+
+.NumberBox input {
+    text-align: right;
+    font-family: Helvetica;
+    font-size: large;
+    border-style: none;
+    background-color: white;
+}

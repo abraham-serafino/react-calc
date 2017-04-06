@@ -1,0 +1,35 @@
+.Button {
+    background-color: dodgerblue;
+    margin: 5px;
+    border-radius: 25%;
+    background: linear-gradient(-45deg, dodgerblue, black);
+    background: -moz-linear-gradient(-45deg, dodgerblue, black);
+    background: -webkit-linear-gradient(-45deg, dodgerblue, black);
+    background: -o-linear-gradient(-45deg, dodgerblue, black);
+    color: slategray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Button:active {
+    background: linear-gradient(45deg, dodgerblue, black);
+    background: -moz-linear-gradient(45deg, dodgerblue, black);
+    background: -webkit-linear-gradient(45deg, dodgerblue, black);
+    background: -o-linear-gradient(45deg, dodgerblue, black);
+}
+
+.InputButton {
+    padding: 12px 20px 0 20px;
+}
+
+.WideInput {
+    padding: 12px 50px 12px 50px;
+}
+
+.FunctionButton {
+    padding: 5px 17px 5px 17px;
+}
+
+.WideFunction {
+    padding: 12px 46px 12px 46px;
+}
